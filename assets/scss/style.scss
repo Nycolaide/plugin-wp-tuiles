@@ -1,0 +1,784 @@
+.text-center {
+    text-align: center;
+    margin: 40px 0;
+    
+    .btn {
+        color: black;
+        padding: 12px 22px;
+        border-radius: 4px;
+        background-color: pink;
+    }
+}
+
+#tile {
+    height: 903px;
+}
+
+#tile {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: height 200ms ease-out;
+    max-width: 1214px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+  
+#tile div.col {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+  
+#tile div.col.one {
+    height: 370px;
+}
+
+#tile-one a.inner {
+    margin-bottom: 10px;
+}
+  
+#tile a.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    border-radius: 10px;
+
+    #tile {
+        height: 903px;
+    }
+    
+     #tile {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        transition: height 200ms ease-out;
+        max-width: 1214px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+     #tile div.col {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    
+    #tile div.col.one {
+        height: 370px;
+    }
+    
+    #tile a.inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        cursor: pointer;
+        display: block;
+        background-color: #CFCFCF;
+    }
+    
+    #tile a.inner .attachment-post-thumbnail,
+    #tile a.inner img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-position: 50% 15%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 300ms ease-out;
+        -webkit-transition: all 300ms ease-out;
+        -webkit-transform: translateZ(0);
+        margin: 0;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #tile a.inner footer {
+        -webkit-transform: translateZ(0);
+        position: absolute;
+        color: #fff;
+    }
+    
+    #tile a.inner footer figcaption {
+        padding: 20px 20px 24px 20px;
+        padding-top: 15px;
+    }
+    
+    #tile a.inner img:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    #tile #tile-one {
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    
+     #tile #tile-one a.inner footer {
+        top: auto;
+        background: transparent;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    #tile #tile-one a.inner footer aside.inside {
+        display: none;
+    }
+    
+    #tile #tile-one a.inner footer aside.outside {
+        padding-left: 20px;
+        position: relative;
+        top: auto;
+        margin-bottom: 20px;
+        width: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    #tile #tile-two,
+    #tile #tile-three,
+    #tile #tile-four,
+    #tile #tile-five {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 130px;
+    }
+    
+    #tile #tile-two a.inner,
+    #tile #tile-three a.inner,
+    #tile #tile-four a.inner,
+    #tile #tile-five a.inner {
+        bottom: 0;
+        top: 5px;
+    }
+    
+    #tile #tile-two a.inner footer,
+    #tile #tile-three a.inner footer,
+    #tile #tile-four a.inner footer,
+    #tile #tile-five a.inner footer {
+        width: 100%;
+    }
+    
+    #tile #tile-two {
+        bottom: 45%;
+    }
+    
+    #tile #tile-two a.inner footer {
+        background: rgba(13, 77, 124, 0.68);
+    }
+    
+    #tile #tile-three {
+        bottom: 10px;
+    }
+    
+    #tile #tile-three a.inner footer {
+        background: rgba(31, 42, 87, 0.7);
+    }
+    
+    #tile #tile-four {
+        bottom: 60%;
+    }
+    
+    #tile #tile-four a.inner footer {
+        background: rgba(79, 109, 89, 0.77);
+    }
+    
+    #tile #tile-five {
+        bottom: 10px;
+    }
+    
+    #tile #tile-five a.inner footer {
+        background: rgba(98, 47, 105, 0.8);
+    }
+    
+    .toolbar-2 {
+        text-align: center;
+        margin-top: 30px;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    .btn {
+        padding: 1rem 2rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        border: 0;
+        transition: all 200ms ease;
+    }
+    
+    .btn.btn-round {
+        border-radius: 10px;
+    }
+    
+    .btn:focus {
+        outline: none;
+    }
+    
+    .btn:active {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-blue {
+        background-color: #005db9;
+    }
+    
+    .btn-red {
+        background-color: #ad0052;
+    }
+    
+    .btn-green {
+        background-color: #00947e;
+    }
+    
+    .btn-black {
+        background-color: #444;
+    }
+    
+    .btn-border {
+        display: inline-block;
+    }
+    
+    .btn-border .btn {
+        display: block;
+    }
+    
+    .btn-border.btn-round {
+        border-radius: 10px;
+    }
+    
+    .btn-border.btn-round .btn {
+        border-radius: 10px;
+    }
+    
+    .ref {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        position: fixed;
+        z-index: 10000;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        padding: 1rem 0;
+        background-image: linear-gradient(135deg, rgba(60, 88, 173, 0.8), rgba(41, 152, 172, 0.8));
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+    
+    .ref a {
+        color: #fff;
+    }
+    
+    /*Tablette - Phablette*/
+    @media screen and (min-width: 640px) {
+        nav .nav-holder p {
+            display: inline-block;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        #tile {
+            height: 520px;
+        }
+        #tile div.col {
+            position: absolute;
+            height: 100%;
+            width: inherit;
+            right: inherit;
+        }
+        #tile div.col.one {
+            width: 50%;
+            height: inherit;
+        }
+        #tile div.col.two {
+            width: 25%;
+            left: 50%;
+        }
+        #tile div.col.three {
+            width: 25%;
+            left: 75%;
+        }
+        #tile a.inner footer {
+            bottom: -2px;
+            width: 100%;
+            animation: footerSlide 400ms 0 ease-out normal;
+        }
+        #tile #tile-one {
+            top: 10px;
+            bottom: 10px;
+            left: 0;
+            right: 5px;
+            height: 100%;
+        }
+        #tile #tile-two,
+        #tile #tile-three,
+        #tile #tile-four,
+        #tile #tile-five {
+            height: inherit;
+        }
+        #tile #tile-two a.inner footer,
+        #tile #tile-three a.inner footer,
+        #tile #tile-four a.inner footer,
+        #tile #tile-five a.inner footer {
+            height: 100%;
+        }
+        #tile #tile-two {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            right: 5px;
+            bottom: 45%;
+            height: calc(100% - (45% + 5px));
+        }
+        #tile #tile-two a.inner {
+            bottom: 5px;
+            top: 0;
+        }
+        #tile #tile-three {
+            position: absolute;
+            bottom: 10px;
+            left: 5px;
+            right: 5px;
+            top: calc(55% + 5px);
+        }
+        #tile #tile-three a.inner {
+            top: 5px;
+        }
+        #tile #tile-four {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            right: 0;
+            bottom: 60%;
+            height: calc(100% - (60% + 5px));
+        }
+        #tile #tile-four a.inner {
+            bottom: 5px;
+            top: 0;
+        }
+        #tile #tile-five {
+            position: absolute;
+            bottom: 10px;
+            left: 5px;
+            right: 0;
+            top: calc(40% + 5px);
+        }
+        #tile #tile-five a.inner {
+            top: 5px;
+        }
+    }
+    
+    @media screen and (min-width: 941px) {
+        #tile {
+            height: 584px;
+        }
+        #tile #tile-two a.inner footer,
+        #tile #tile-three a.inner footer,
+        #tile #tile-four a.inner footer,
+        #tile #tile-five a.inner footer {
+            height: inherit !important;
+        }
+        #tile #tile-three {
+            height: calc(45% - 5px);
+        }
+        #tile #tile-five {
+            height: calc(60% - 5px);
+        }
+    }
+    
+    @media screen and (min-width: 941px) {
+        #tile #tile-one a.inner footer {
+            bottom: 50px;
+            background: transparent;
+        }
+        #tile #tile-one a.inner footer aside.outside {
+            max-width: 440px;
+            position: absolute;
+            padding: 0;
+            padding-left: 40px;
+            height: 100%;
+            right: 0;
+            left: 116px;
+            top: 0;
+        }
+        #tile #tile-one a.inner footer aside.inside {
+            max-width: 175px;
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 41px 40px;
+            position: relative;
+            display: inline-block;
+            color: #fff;
+        }
+    }
+    
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    background-color: #CFCFCF;
+}
+  
+#tile a.inner .attachment-post-thumbnail,
+#tile a.inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out;
+    -webkit-transform: translateZ(0);
+    margin: 0;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+  
+#tile a.inner footer {
+    -webkit-transform: translateZ(0);
+    position: absolute;
+    color: #fff;
+}
+  
+#tile a.inner footer figcaption {
+    padding: 20px 20px 24px 20px;
+    padding-top: 15px;
+}
+  
+#tile a.inner img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+#tile #tile-one {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+  
+#tile #tile-one a.inner footer {
+    top: auto;
+    background: transparent;
+    bottom: 0;
+    width: 100%;
+}
+  
+#tile #tile-one a.inner footer aside.inside {
+    display: none;
+}
+  
+#tile #tile-one a.inner footer aside.outside {
+    padding-left: 20px;
+    position: relative;
+    top: auto;
+    margin-bottom: 20px;
+    width: auto;
+    left: 0;
+    right: 0;
+}
+  
+#tile #tile-two,
+#tile #tile-three,
+#tile #tile-four,
+#tile #tile-five {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 130px;
+}
+  
+#tile #tile-two a.inner,
+#tile #tile-three a.inner,
+#tile #tile-four a.inner,
+#tile #tile-five a.inner {
+    bottom: 0;
+    top: 5px;
+}
+  
+#tile #tile-two a.inner footer,
+#tile #tile-three a.inner footer,
+#tile #tile-four a.inner footer,
+#tile #tile-five a.inner footer {
+    width: 100%;
+}
+  
+#tile #tile-two {
+    bottom: 45%;
+}
+  
+#tile #tile-two a.inner footer {
+    background: rgba(13, 77, 124, 0.68);
+}
+  
+#tile #tile-three {
+    bottom: 10px;
+}
+  
+#tile #tile-three a.inner footer {
+    background: rgba(31, 42, 87, 0.7);
+}
+  
+#tile #tile-four {
+    bottom: 60%;
+}
+  
+#tile #tile-four a.inner footer {
+    background: rgba(79, 109, 89, 0.77);
+}
+  
+#tile #tile-five {
+    bottom: 10px;
+}
+  
+#tile #tile-five a.inner footer {
+    background: rgba(98, 47, 105, 0.8);
+}
+  
+.toolbar-2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+  
+.btn {
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 0;
+    transition: all 200ms ease;
+}
+  
+.btn.btn-round {
+    border-radius: 10px;
+}
+  
+.btn:focus {
+    outline: none;
+}
+  
+.btn:active {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+  
+.btn-blue {
+    background-color: #005db9;
+}
+  
+.btn-red {
+    background-color: #ad0052;
+}
+  
+.btn-green {
+    background-color: #00947e;
+}
+  
+.btn-black {
+    background-color: #444;
+}
+  
+.btn-border {
+    display: inline-block;
+}
+  
+.btn-border .btn {
+    display: block;
+}
+  
+.btn-border.btn-round {
+    border-radius: 10px;
+}
+  
+.btn-border.btn-round .btn {
+    border-radius: 10px;
+}
+  
+.ref {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    background-image: linear-gradient(135deg, rgba(60, 88, 173, 0.8), rgba(41, 152, 172, 0.8));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+  
+.ref a {
+    color: #fff;
+}
+  
+  /*Tablette - Phablette*/
+@media screen and (min-width: 640px) {
+    nav .nav-holder p {
+        display: inline-block;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    #tile {
+        height: 520px;
+    }
+    #tile div.col {
+        position: absolute;
+        height: 100%;
+        width: inherit;
+        right: inherit;
+    }
+    #tile div.col.one {
+        width: 50%;
+        height: inherit;
+    }
+    #tile div.col.two {
+        width: 25%;
+        left: 50%;
+    }
+    #tile div.col.three {
+        width: 25%;
+        left: 75%;
+    }
+    #tile a.inner footer {
+        bottom: -2px;
+        width: 100%;
+        animation: footerSlide 400ms 0 ease-out normal;
+    }
+    #tile #tile-one {
+        top: 10px;
+        bottom: 10px;
+        left: 0;
+        right: 5px;
+        height: 100%;
+    }
+    #tile #tile-two,
+    #tile #tile-three,
+    #tile #tile-four,
+    #tile #tile-five {
+        height: inherit;
+    }
+    #tile #tile-two a.inner footer,
+    #tile #tile-three a.inner footer,
+    #tile #tile-four a.inner footer,
+    #tile #tile-five a.inner footer {
+        height: 100%;
+    }
+    #tile #tile-two {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        right: 5px;
+        bottom: 45%;
+        height: calc(100% - (45% + 5px));
+    }
+    #tile #tile-two a.inner {
+        bottom: 5px;
+        top: 0;
+    }
+    #tile #tile-three {
+        position: absolute;
+        bottom: 10px;
+        left: 5px;
+        right: 5px;
+        top: calc(55% + 5px);
+    }
+    #tile #tile-three a.inner {
+        top: 5px;
+    }
+    #tile #tile-four {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        right: 0;
+        bottom: 60%;
+        height: calc(100% - (60% + 5px));
+    }
+    #tile #tile-four a.inner {
+        bottom: 5px;
+        top: 0;
+    }
+    #tile #tile-five {
+        position: absolute;
+        bottom: 10px;
+        left: 5px;
+        right: 0;
+        top: calc(40% + 5px);
+    }
+    #tile #tile-five a.inner {
+        top: 5px;
+    }
+}
+  
+@media screen and (min-width: 941px) {
+    #tile {
+        height: 584px;
+    }
+    #tile #tile-two a.inner footer,
+    #tile #tile-three a.inner footer,
+    #tile #tile-four a.inner footer,
+    #tile #tile-five a.inner footer {
+        height: inherit !important;
+    }
+    #tile #tile-three {
+        height: calc(45% - 5px);
+    }
+    #tile #tile-five {
+        height: calc(60% - 5px);
+    }
+}
+  
+@media screen and (min-width: 941px) {
+    #tile #tile-one a.inner footer {
+        bottom: 50px;
+        background: transparent;
+    }
+    #tile #tile-one a.inner footer aside.outside {
+        max-width: 440px;
+        position: absolute;
+        padding: 0;
+        padding-left: 40px;
+        height: 100%;
+        right: 0;
+        left: 116px;
+        top: 0;
+    }
+    #tile #tile-one a.inner footer aside.inside {
+        max-width: 175px;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 41px 40px;
+        position: relative;
+        display: inline-block;
+        color: #fff;
+    }
+}
+  
